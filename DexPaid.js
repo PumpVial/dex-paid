@@ -6,7 +6,7 @@ const ca = "7iagMTDPfNSR5zVcERT1To7A9eaQoz58dJAh42EMHcCC";
 //////////////////////////////// END ////////////////////////////////////////
 
 const checkDexPaid = async () => {
-  const URL = "https://pumpvial.com/api/dex-paid";
+  const URL = "https://api.pumpvial.com/dex-paid";
 
   try {
     const request = await axios.post(
